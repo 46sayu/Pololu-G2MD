@@ -13,7 +13,7 @@ Set the TIM peripheral and GPIO pin to use as constructor arguments.
 PololuG2MD md(&htim1, TIM_CHANNEL_1, GPIOB, GPIO_PIN_10);
 ```
 
-Please call the function `PololuG2MD::init()`, after the initialization of TIM and GPIO peripherals.
+Please call the function `init()`, after the initialization of TIM and GPIO peripherals.
 
 ##### Operate
 void setMotorSpeed(float speed)

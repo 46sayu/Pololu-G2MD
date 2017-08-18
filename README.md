@@ -32,3 +32,6 @@ Connect signals to the Motor Drier's Pins as below:
 DIR pin --- DIR
 PWM pin --- PWM
 ```
+
+## License
+[MIT License](LICENSE.md).
